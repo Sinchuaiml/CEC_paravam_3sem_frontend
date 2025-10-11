@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>forms in html</h1>
+    <p>registration form</p>
+    <form>
+        <fieldset>
+            <legend>personal information</legend>
+        <label for="f_name">first name:</label>
+        <input type="text" name="f_name" class="f_name" id="f_name" placeholder="enter your f name"> <br>
+        <label for="l_name">last name:</label>
+        <input type="text" name="l_name" class="l_name" id="l_name" placeholder="enter your l name"> <br>
+        <label for="email">email</label>
+        <input type="email"name="email" class="email" id="email" placeholder="enter your email"> <br>
+        <label for="password">password</label>
+        <input type="text" name="password" class="password" id="password" placeholder="enter your password"><br>
+        </fieldset>
+        <label for="gender"></label>
+        <label for="gender">male</label>
+        <input type="radio" name="gender" class="gender" id="male">
+        <label for="gender">female</label>
+        <input type="radio" name="gender" class="gender" id="female">
+        <label for="gender">other</label>
+        <input type="radio" name="gender" class="gender" id="other"><br>
+        <label for="age"> age:</label>
+        <input type="number" name="age" class="age" id="age" placeholder="enter your age"> <br>
+        <label for="skills"></label>
+        <label for="skills">html</label>
+        <input type="checkbox" name="skills" class="skills" id="html">
+        <label for="skills">css</label>
+        <input type="checkbox" name="skills" class="skills" id="css">
+        <label for="skills">java</label>
+        <input type="checkbox" name="skills" class="skills" id="java"><br>
+
+        <label for="dob">dob:</label>
+        <input type="date" name="dob" class="dob" id="dob" placeholder="enter your dob"> <br>
+
+        <label for="address">address:</label>
+        <textarea name="address" class="address" id="address" placeholder="enter your address" rows="5" cols="50"></textarea> <br>
+
+        <input type="submit" value="register" class="submit" id="submit">
+        <input type="reset" value="reset" class="reset" id="reset">
+
+    </form>
+</body>
+</html>
