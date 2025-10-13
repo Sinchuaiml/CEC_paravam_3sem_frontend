@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <pre>
+    LOOPS STATEMENT IN JS
+    for loop
+    for of loop 
+    for in loop 
+    for each loop 
+    while loop 
+    do while loop 
+    </pre>
+    <script>
+        const fruits =["apple, bannana ,mango"];
+        for (let i = 0; i < fruits.length;i++){
+        console.log("fruits at index ${i}: ${fruits[i]}");
+        }
+
+        const colors =["red, blue ,green"];
+        for (const color of colors){
+        console.log("color: ${color}");
+        }
+
+        const person = {
+        name : "sinchana",
+        age :18,
+        city : "new york"
+        };
+        for (const key in person ){
+        console.log(`$(key): ${person[key]}`);
+        }
+
+        const numbers =[10, 20 ,30];
+        numbers.forEach (function(number, index){
+        console.log("element at index $(index)is $(number)");
+        });
+
+        let count = 0;
+        const limit = 3;
+        while (count < limit ){
+        console.log ("current count: $(count)");
+        count++; // important ; increment the variable
+         }
+
+         let i = 0;
+         do{
+         console.log(`the value of i is: ${i}`);
+         i++;
+         } while (i < 0);
+    </script>
+</body>
+</html>
