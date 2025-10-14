@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <p>1. we can change the content of html.</p>
+
+    <h1 id="title">Hello World</h1>
+    <button type="button" onclick="document.getElementById('title').innerText='text changed using js'">
+        change the content of h1</button>
+
+    <p>2. we can change the html attr.</p>
+    <img src="./happy.jpg" alt="happy" id="emoji">
+    <button type="button" onclick="document.getElementById('emoji').src='./sad.webp'">sad</button>
+    <button type="button" onclick="document.getElementById('emoji').src='./happy.jpg'">happy</button>
+
+    <p>3. we can change the css .</p>
+    <div id="desc">always keep smiling.</div>
+    <button onclick="document.getElementById('desc').style.backgroundColor='green'">change background</button>
+
+    <p>4. we can hide the html element.</p>
+    <h3 id="title3">always keep smiling.</h3>
+    <button onclick="document.getElementById('title3').style.display='none'">hide ele </button>
+
+    <p>5. we can show the html element.</p>
+    <h2 id="heading_2"style="display: none;">heading 2</h2>
+    <button onclick="document.getElementById('heading_2').style.display='block'">show ele </button>
+
+</body>
+</html>
